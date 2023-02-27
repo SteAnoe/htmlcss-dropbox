@@ -102,6 +102,9 @@ img{
     margin-top: 150px;
 }
 
+.margin-50{
+    margin: 50px;
+}
 
 
 
@@ -203,8 +206,9 @@ h2{
     color: #196ffa;
 }
 
-hr{
+.hr-corta{
     width: 20%;
+    border: 1px solid lightgray;
 }
 
 i{
@@ -254,14 +258,14 @@ i{
     width: calc(100%/3 - 5%);
 }
 
-/* section 3 */
+/* carte colorate */
 .colored-banner{
     width: calc(100vw/3);
 }
 
 .partner{
-    width: 50%;
-    height: 100%;
+    height: calc(60vh/2);
+    flex-basis: calc(100%/2);
 }
 
 .partner-img{
@@ -272,11 +276,11 @@ i{
 
 #banner-m{
     background-color: #f5f5f5;
+    overflow: auto;
 }
 
 #banner-m img{
     width: 50%;
-    margin: 50px;
 }
 
 #partner1{
@@ -310,4 +314,89 @@ i{
 
 #partner8{
     background-color: #ffd830;
+}
+
+#hr{
+    border: 1px solid lightgrey;
+}
+
+/* banner blue */
+.banner-blue{
+    background-color: #b4d0e7;
+}
+
+#banner-blue{
+    padding: 100px 0;
+}
+
+#bottone-bianco{
+    background-color: white;
+    padding: 10px 15px;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+}
+
+#testo-vino{
+    color: #61082b;
+    margin: 0;
+}
+
+#left-banner-blue{
+    width: 70%;
+}
+
+#right-banner-blue{
+    width: 30%;
+    margin-top: 5px;
+}
+
+/* faq */
+.hidden{
+    display: none;
+}
+
+.visible:hover + .hidden{
+    display: block;
+}
+
+
+
+/* footer */
+footer{
+    background-color: #000000;
+    padding: 20px 0;
+    color: white;
+}
+
+hr{
+    margin: 20px 0;
+}
+
+#foot-top{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.ita{
+    color: white;
+}
+
+li{
+    margin: 20px 0;
+    list-style-type: none;
+}
+
+.arrow{
+    border: solid white;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 2px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.down{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }

@@ -252,6 +252,12 @@ i{
 #bottone-nero{
     border: 2px solid black;
     padding: 20px;
+    font-size: 20px;
+}
+
+#bottone-nero:hover{
+    border: 2px solid #7c7c7c;
+    color: #7c7c7c;
 }
 
 
@@ -320,6 +326,7 @@ i{
 
 #hr{
     border: 1px solid lightgrey;
+    width: 20%;
 }
 
 /* banner blue */
@@ -336,7 +343,11 @@ i{
     padding: 10px 15px;
     color: black;
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
+}
+
+#bottone-bianco:hover{
+    color: #7c7c7c;
 }
 
 #testo-vino{
@@ -360,6 +371,10 @@ i{
 
 .visible:hover + .hidden{
     display: block;
+}
+
+.visible:hover .fa-angle-down{
+    transform: rotate(180deg);
 }
 
 
@@ -390,15 +405,7 @@ li{
 }
 
 .arrow{
-    border: solid white;
-    border-width: 0 1px 1px 0;
-    display: inline-block;
     padding: 2px;
     margin-left: 10px;
-    margin-bottom: 5px;
 }
 
-.down{
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-}
